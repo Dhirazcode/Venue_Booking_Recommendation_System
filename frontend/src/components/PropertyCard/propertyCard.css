@@ -1,0 +1,25 @@
+.property-card {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .property-image img {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+  
+  .property-details {
+    padding: 20px;
+  }
+  
+  .property-details h3 {
+    margin-top: 0;
+  }
+  
+  .property-details p {
+    margin: 5px 0;
+  }
+  

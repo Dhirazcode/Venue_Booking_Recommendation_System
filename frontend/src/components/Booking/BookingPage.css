@@ -1,0 +1,25 @@
+.options,
+.date {
+  position: absolute;
+  z-index: 10;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin-top: 55px;
+  margin-left: 10px;
+}
+
+.headerSearchItem {
+  position: relative;
+}
+
+.date {
+  top: calc(100% + 5px);
+  left: 0;
+}
+
+.date-wrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }

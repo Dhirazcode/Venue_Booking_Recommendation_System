@@ -1,0 +1,62 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #2b5691;
+  padding: 10px 20px; /* Add padding for better spacing */
+  z-index: 1000; /* Ensure it appears above other content */
+  height: 45px;
+}
+
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: 500;
+  font-size: 1.5rem; /* Adjust font size */
+  color: white; /* Set text color */
+}
+
+.navButton {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: rgb(203, 213, 222);
+  font-size: 1rem; /* Adjust font size */
+  margin-right: 100px; /* Add some spacing between buttons */
+}
+
+.dropdownMenu {
+  position: absolute;
+  top: 100%; /* Position dropdown below the button */
+  right: 0;
+  background-color: #f9f9f9; /* Set background color */
+  border: 1px solid #ccc; /* Add border */
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+.dropdownItem {
+  display: block;
+  padding: 8px 12px;
+  color: #333; /* Set text color */
+  text-decoration: none;
+  transition: background-color 0.3s ease; /* Add transition */
+}
+
+.dropdownItem:hover {
+  background-color: #ddd; /* Change background color on hover */
+}
+
+/* Optional: Add hover effect for navButton */
+.navButton:hover {
+  color: #f9f9f9; /* Change text color on hover */
+}
+
+.navItems{
+  margin-right: 70px;
+}

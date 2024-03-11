@@ -1,0 +1,35 @@
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.footer p {
+  margin-bottom: 20px;
+}
+
+.cbtn {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.cbtn:hover {
+  background-color: #45a049;
+}
+
+h1 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.fText {
+  font-size: 14px;
+  margin-top: 20px;
+}
+

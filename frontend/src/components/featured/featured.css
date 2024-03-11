@@ -1,0 +1,65 @@
+.featured{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  z-index: 10;
+}
+
+.heading {
+  text-align: center; /* Center the text horizontally */
+}
+
+.property-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+}
+
+.property-image {
+  width: 100%; /* Ensure the image takes up full width */
+  overflow: hidden; /* Hide overflow to prevent image stretching */
+}
+
+.property-image img {
+  width: 100%; /* Make the image responsive */
+  height: max-content; /* Maintain aspect ratio */
+}
+
+.heading {
+  margin-top: 20px; /* Add space at the top */
+}
+
+
+
+.property-image {
+  width: 180px;
+  height: 150px;
+  overflow: hidden; 
+}
+
+.property-image img {
+  width: 100%; /* Make the image responsive */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.headding {
+  align-items: center;
+  text-align: center;
+}
+.headding h1 {
+  align-items: center;
+  text-align: center;
+  margin-left: 100px;
+}
+
+.venue-details{
+  padding: 5px;
+  margin-top: 20px;
+}
+.confirm-page{
+  margin-bottom: 20px;
+}
